@@ -45,6 +45,11 @@ for (let index = 0; index < amigosJson.length-1; index++) {
     tr.appendChild(tdn);
     tr.appendChild(tde);
 
+    if (amigosJson[index].nome == 'Lucas Tayar Alvarenga Cunha') {
+        tdn.innerHTML = "<a href='/eu'><strong>Lucas Tayar Alvarenga Cunha</strong></a>";
+        tde.innerHTML = "<a href='/eu'><strong>lucastayar12@gmail.com</strong></a>";
+    }
+
     
 }
 
